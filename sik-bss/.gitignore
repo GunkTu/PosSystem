@@ -1,0 +1,8 @@
+/vendor/
+/storage/*
+!/storage/*/
+/storage/*/*
+!/storage/*/.gitkeep
+/app/config/database.php
+.env
+*.log

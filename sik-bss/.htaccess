@@ -1,0 +1,4 @@
+# Memudahkan akses via http://localhost/sik-bss/ (tanpa vhost). Di produksi arahkan DocumentRoot ke public/.
+RewriteEngine On
+RewriteRule ^$ public/ [L]
+RewriteRule ^(?!public/)(.*)$ public/$1 [L]
